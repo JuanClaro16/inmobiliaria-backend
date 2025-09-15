@@ -84,7 +84,7 @@ class PropertyController extends Controller
 
             $property = Property::create($data);
 
-            // Imágenes (igual que ya tenías)
+            // Imágenes 
             if ($request->hasFile('images')) {
                 $alts = $request->input('images_alt', []);
                 foreach ($request->file('images') as $idx => $file) {
