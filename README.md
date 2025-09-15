@@ -10,7 +10,7 @@
 
 ### Setup
 ```bash
-cp .env.example .env
+cp .env
 # edita credenciales DB en .env
 composer install
 php artisan key:generate
